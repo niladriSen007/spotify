@@ -33,7 +33,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
   );
 
   return (
-    <div className="flex h-full">
+    <div className="flex h-full bg-slate-900 ">
       <div
         className=" hidden 
           md:flex 
@@ -55,7 +55,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
           <Library />
         </Box>
       </div>
-      <div className="h-full flex-1 overflow-y-auto py-2">{children}</div>
+      <div className="h-full flex-1 overflow-y-auto py-2  bg-[#101B30]">{children}</div>
     </div>
   );
 };
